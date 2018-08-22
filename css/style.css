@@ -1,13 +1,23 @@
 /*CSS document*/
 
-/*Insert global rules here - rules that apply for all pages on your site. This could be text color, font type, font-sizes, margin on elements */
+/*Insert global rules here - rules that apply for all pages on your site and all device sizes. This could be text color, font type, font-sizes, margin on elements */
 
 /*COMMENTS WITH CAPITAL LETTERS ARE EASY TO SPOT, SO USE THEM FOR HEADINGS FOR OVERVIEW. IT IS A GOOD IDEA TO HAVE A HEADING FOR YOUR HEADER, NAVIGATION, MAIN AND FOOTER. SEE EXAMPLE BELOW*/
 
+
 /*HEADER*/
 
-/*
-header h1{
+/* example:
+p{
 font-family: Tahoma, Geneva, sans-serif;  
 }
 */
+
+/* example where you target the h1 inside the header tag and give it a color and a size:
+header h1{
+color: #ffffff;  
+font-size: 48px;
+}
+*/
+
+/*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
