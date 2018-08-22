@@ -7,17 +7,19 @@
 
 /*HEADER*/
 
-/* example:
-p{
-font-family: Tahoma, Geneva, sans-serif;  
-}
-*/
-
-/* example where you target the h1 inside the header tag and give it a color and a size:
+/* example where you target the h1 inside the header tag and give it a color and a size */
 header h1{
 color: #ffffff;  
 font-size: 48px;
 }
-*/
+
+
+/*Main*/
+
+/* example to be deleted*/
+p{
+font-family: Tahoma, Geneva, sans-serif;  
+}
+
 
 /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
