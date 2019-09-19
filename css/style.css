@@ -3,23 +3,15 @@
 /*Insert global rules here - rules that apply for all pages on your site and all device sizes. This could be text color, font type, font-sizes, margin on elements */
 
 /*COMMENTS WITH CAPITAL LETTERS ARE EASY TO SPOT, SO USE THEM FOR HEADINGS FOR OVERVIEW. IT IS A GOOD IDEA TO HAVE A HEADING FOR YOUR HEADER, NAVIGATION, MAIN AND FOOTER. SEE EXAMPLE BELOW*/
-
+/*This rule will overwrite the styling from the browser that sets margin and padding on the elements. The box-sizing rule ensures that padding is included in width values */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /*HEADER*/
 
-/* example where you target the h1 inside the header tag and give it a color and a size */
-header h1{
-color: #ffffff;  
-font-size: 48px;
-}
-
-
-/*Main*/
-
-/* example to be deleted*/
-p{
-font-family: Tahoma, Geneva, sans-serif;  
-}
 
 
 /*when you develop mobile first responsive pages, you add rules for different device sizes after all the global rules, starting with the smallest screen size*/
